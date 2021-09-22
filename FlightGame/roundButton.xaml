@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="FlightGame.roundButton"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:FlightGame"
+             mc:Ignorable="d" 
+             d:DesignHeight="100" d:DesignWidth="100">
+    <UserControl.Resources>
+        <Color x:Key="RedToBlue">#FFF03737</Color>
+    </UserControl.Resources>
+    <Grid>
+        <Rectangle x:Name="rect" HorizontalAlignment="Left" MouseEnter="Rectangle_MouseEnter" MouseLeave="Rectangle_MouseLeave" Height="100" Stroke="#B2FFFFFF" VerticalAlignment="Top" Width="100" RadiusY="49.5" RadiusX="49.5" Fill="#33FFFFFF" StrokeThickness="2"/>
+
+    </Grid>
+</UserControl>
